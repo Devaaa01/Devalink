@@ -5,7 +5,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: url(test1.jpg) no-repeat center center/cover;
+    background: url(background.jpg) no-repeat center center/cover;
     overflow-x: hidden;
 }
 
@@ -454,4 +454,5 @@ button p{
         width: 30px;
         height: 30px;
     }
+
 }
