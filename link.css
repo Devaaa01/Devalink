@@ -65,7 +65,7 @@ main{
     height: 100px;
     border-radius: 50%;
     object-fit:cover;
-    box-shadow: 1px 2px 4px black;
+    box-shadow: 1px 2px 4px white;
     transition: all 0.2s ease;
 }
 
@@ -88,7 +88,7 @@ main{
     font-size: 15px;
     line-height: 1.2rem;
     word-spacing: 5px;
-    font-weight: 400;
+    font-weight: 600;
     text-shadow: 0 1px 2px rgba(255,255,255,0.5);
     margin: 0;
 }
@@ -134,8 +134,8 @@ button:hover{
 }
 
 button img{
-    width: 35px;
-    height: 35px;
+    width: 37px;
+    height: 37px;
     display: flex;
     margin: 8px 16px;
     object-fit: contain;
@@ -156,6 +156,7 @@ button p{
     color: white;
     font-weight: 700;
     font-size: 15px;
+    text-shadow: 1px 2px 4px black;
 }
 
 .link-section h3{
@@ -164,7 +165,7 @@ button p{
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 18px;   
-    -webkit-text-stroke: 10px solid #222;
+    text-shadow: 1px 2px 4px black;
     text-align: center;
 }
 
@@ -454,5 +455,4 @@ button p{
         width: 30px;
         height: 30px;
     }
-
 }
